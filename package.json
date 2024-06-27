@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "update": "npx npm-check-updates -u"
+    "update": "npx npm-check-updates -u",
+    "lint": "npx eslint ./src --fix -c ./.eslintrc"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,7 @@
     "@reatom/npm-react": "3.*.*",
     "@reatom/persist-web-storage": "3.*.*",
     "@reatom/url": "3.*.*",
+    "@reatom/web": "^3.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
